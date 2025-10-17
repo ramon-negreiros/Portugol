@@ -3,12 +3,10 @@ programa
 	
 	funcao inicio()
 	{
-		inteiro x, y, troca, soma
+		inteiro x, y, troca, soma = 0
 
 		escreva("Digite dois números: ")
 		leia(x, y)
-
-		soma = 0
 
 		se (y < x)
 		{
@@ -33,9 +31,9 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 339; 
+ * @POSICAO-CURSOR = 114; 
  * @PONTOS-DE-PARADA = ;
- * @SIMBOLOS-INSPECIONADOS = {x, 6, 10, 1}-{y, 6, 13, 1}-{troca, 6, 16, 5}-{soma, 6, 23, 4}-{i, 20, 16, 1};
+ * @SIMBOLOS-INSPECIONADOS = {x, 6, 10, 1}-{y, 6, 13, 1}-{troca, 6, 16, 5}-{soma, 6, 23, 4}-{i, 18, 16, 1};
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
  * @FILTRO-ARVORE-TIPOS-DE-SIMBOLO = variavel, vetor, matriz, funcao;
  */
