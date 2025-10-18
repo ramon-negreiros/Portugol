@@ -38,7 +38,8 @@ programa
 					pare
 			}	
 		}
-
+		
+		escreva("\n:::::::::::::::\n\n")
 		escreva("MUITO OBRIGADO!\n")
 		escreva("Álcool: ", alcool, "\n")
 		escreva("Gasolina: ", gasolina, "\n")
@@ -50,7 +51,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 623; 
+ * @POSICAO-CURSOR = 827; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
