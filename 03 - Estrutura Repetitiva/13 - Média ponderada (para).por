@@ -1,6 +1,6 @@
 programa
 {
-	inclua biblioteca Matematica --> mat
+	inclua biblioteca Matematica --> mat
 	
 	funcao inicio()
 	{
@@ -15,7 +15,7 @@ programa
 			escreva("Digite três números: ")
 			leia(x1, x2, x3)
 
-			media = (x1 * 2 + x2 * 3 + x3 * 5) / (2 + 3 + 5)
+			media = (x1 * 2 + x2 * 3 + x3 * 5) / 10
 
 			escreva("MÉDIA = ", mat.arredondar(media, 1), "\n")
 		}
@@ -26,7 +26,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 337; 
+ * @POSICAO-CURSOR = 370; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
