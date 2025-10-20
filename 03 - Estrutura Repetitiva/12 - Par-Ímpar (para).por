@@ -12,7 +12,12 @@ programa
 			escreva("Digite um número: \n")
 			leia(x)
 
-			se (x % 2 == 0 e x > 0)
+			se (x == 0)
+			{
+				escreva("NULO \n")	
+			}
+			senao se
+			(x % 2 == 0 e x > 0)
 			{
 				escreva("PAR POSITIVO \n")
 			}
@@ -24,14 +29,11 @@ programa
 			{
 				escreva("ÍMPAR POSITIVO \n")
 			}
-			senao se (x % 2 != 0 e x < 0)
+			senao
 			{
 				escreva("ÍMPAR NEGATIVO \n")
 			}
-			senao
-			{
-				escreva("NULO \n")
-			}
+		
 		}
 	}
 }
@@ -40,7 +42,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 529; 
+ * @POSICAO-CURSOR = 469; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
