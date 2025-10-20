@@ -1,6 +1,6 @@
 programa
 {
-	inclua biblioteca Matematica --> mat
+	inclua biblioteca Matematica --> mat
 	
 	funcao inicio()
 	{
@@ -37,9 +37,9 @@ programa
 					
 		}
 
-		pCoelho = (coelho * 100) / total
-		pRato = (rato * 100) / total
-		pSapo = (sapo * 100) / total
+		pCoelho = coelho / total * 100
+		pRato = rato / total * 100
+		pSapo = sapo / total * 100
 
 		escreva("\n-----------------------------\n")
 		escreva("RELATÓRIO FINAL: \n")
@@ -57,7 +57,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 730; 
+ * @POSICAO-CURSOR = 676; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
