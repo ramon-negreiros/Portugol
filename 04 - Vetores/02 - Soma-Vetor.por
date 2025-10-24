@@ -13,7 +13,7 @@ programa
 		{
 			escreva("Digite um número: ")
 			leia(vet[i])
-			soma = soma + 	vet[i]
+			soma = soma + vet[i]
 		}
 
 		media = soma / N
@@ -29,6 +29,7 @@ programa
 		escreva("MÉDIA = ", media)
 	}
 }
+
 /* $$$ Portugol Studio $$$ 
  * 
  * Esta seção do arquivo guarda informações do Portugol Studio.
