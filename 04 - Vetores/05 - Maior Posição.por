@@ -3,8 +3,8 @@ programa
 	
 	funcao inicio()
 	{
-		inteiro N, i, posicao
-		real vet[10], maior
+		inteiro N, i, posMaior
+		real vet[10], maiorValor
 
 		escreva("Quantos números você vai digitar? ")
 		leia(N)
@@ -15,21 +15,21 @@ programa
 			leia(vet[i])				
 		}
 
-		maior = 0
-		posicao = 0
+		maiorValor = vet[0]
+		posMaior = 0
  		
-		para (i = 0; i < N; i++)
+		para (i = 1; i < N; i++)
 		{
-			se (vet[i] > maior)
+			se (vet[i] > maiorValor)
 			{
-				maior = vet[i]
-				posicao = i
+				maiorValor = vet[i]
+				posMaior = i
 			}
 		}
 
 		escreva("\n")
-		escreva("MAIOR VALOR = ", maior, "\n")
-		escreva("POSIÇÃO DO MAIOR VALOR = ", posicao)
+		escreva("MAIOR VALOR = ", maiorValor, "\n")
+		escreva("POSIÇÃO DO MAIOR VALOR = ", posMaior)
 	}
 }
 /* $$$ Portugol Studio $$$ 
@@ -37,7 +37,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 258; 
+ * @POSICAO-CURSOR = 337; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
