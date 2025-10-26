@@ -28,15 +28,14 @@ programa
 				contPar = contPar + 1	
 			}			
 		}
-
-		media = somaPar / contPar
-
+		
 		se (contPar == 0)
 		{
 			escreva("NENHUM NÚMERO PAR")			
 		}
 		senao
 		{
+			media = somaPar / contPar
 			escreva("MÉDIA DOS PARES =  ", media)	
 		}
 	}
@@ -46,7 +45,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 574; 
+ * @POSICAO-CURSOR = 534; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
