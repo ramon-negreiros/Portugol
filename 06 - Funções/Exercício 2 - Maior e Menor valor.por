@@ -11,9 +11,11 @@ programa
 			leia(vet[i])
 		}
 
+		// Eu chamo a função e passo os valores -- FUNÇÃO(VALOR)
 		menorMaior(vet)
 	}
 
+	// A função recebe parâmetros -- num[]
 	funcao menorMaior (inteiro num[])
 	{
 		inteiro maior = num[0]
@@ -41,7 +43,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 509; 
+ * @POSICAO-CURSOR = 277; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
