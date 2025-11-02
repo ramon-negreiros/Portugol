@@ -1,25 +1,26 @@
 programa
 {
-	
-	funcao inicio()
-	{
-		inteiro num
-
-		escreva("Digite um número: ")
-		leia(num)
-		ParOuImpar(num)
-	}
-	// Exemplo de passagem de parâmetro por valor
-	funcao ParOuImpar (inteiro v)
+	funcao cadeia ParOuImpar (inteiro v)
 	{
 		se (v % 2 == 0)
 		{
-			escreva("O número ", v, " é PAR")
+			retorne "PAR"
 		}
-		senao
+		senao 
 		{
-			escreva("O número ", v, " é ÍMPAR")
-		}
+			retorne "ÍMPAR"
+		}	
+	}
+	
+	funcao inicio()
+	{
+		inteiro N
+		cadeia R
+
+		escreva("Digite um número: ")
+		leia(N)
+		R = ParOuImpar(N)
+		escreva("O número ", N, " é um valor ", R)
 	}
 }
 /* $$$ Portugol Studio $$$ 
@@ -27,9 +28,9 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 165; 
+ * @POSICAO-CURSOR = 128; 
  * @PONTOS-DE-PARADA = ;
- * @SIMBOLOS-INSPECIONADOS = {num, 6, 10, 3}-{v, 13, 28, 1};
+ * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
  * @FILTRO-ARVORE-TIPOS-DE-SIMBOLO = variavel, vetor, matriz, funcao;
  */
